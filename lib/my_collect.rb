@@ -6,15 +6,15 @@ require 'pry'
 # execute the code in the block we call it with for each element in the collection
 # use yield and return the modified selection
 
-def my_collect(collection)
-  c = 0 
-  collection = []
-  while c < collection.length
-    yield(languages.upcase, student.shift)
-    c += 1 
-     # new_collection << yield(collection)
-  end
-end
+# def my_collect(collection)
+#   c = 0 
+#   collection = []
+#   while c < collection.length
+#     yield(languages.upcase, student.shift)
+#     c += 1 
+#     # new_collection << yield(collection)
+#   end
+# end
   
 
 # def my_collect(lang)

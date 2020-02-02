@@ -11,7 +11,6 @@ def my_collect(collection)
   collection = []
   while c < collection.length
     yield(languages.upcase, student.shift)
-   
     c += 1 
      # new_collection << yield(collection)
   end
